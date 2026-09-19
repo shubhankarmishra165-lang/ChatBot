@@ -33,6 +33,7 @@ ChatBot/
 ├── ChatBot_FrontEnd.py                   # Streamlit frontend
 ├── requirements.txt         # Python dependencies
 ├── .env                     # API key (not committed)
+├── Chatbot.db               # Sqlite Dtabase(not committed)
 ├── .gitignore               # Ignored files
 └── README.md                # Project documentation
 ```
@@ -146,10 +147,6 @@ The `.env` file should be included in `.gitignore`:
 ```
 
 ## 🚀 Future Improvements
-
-* [ ] Add chat history
-* [ ] Add streaming responses
-* [ ] Add multiple conversation threads
 * [ ] Add document/PDF question answering
 * [ ] Add tool calling
 * [ ] Add web search
