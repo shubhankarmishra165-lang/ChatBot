@@ -123,9 +123,12 @@ python -m streamlit run app.py
 ```
 
 The user enters a message through the Streamlit interface. The message is passed to the LangChain/LangGraph backend, where the Gemini model generates a response. The response is then displayed in the Streamlit interface.
-## 📷 Application Preview
+### Chatbot Interface
 
-![Application Preview](image/preview.png)
+![AI Chatbot Application Preview](image/Screenshot%202026-09-16%20234928.png)
+
+> 💬 A simple AI chatbot interface built with **Streamlit**, powered by **LangChain, LangGraph, and Google Gemini**.
+
 ## 🔒 Security
 
 The Gemini API key is loaded using environment variables:
